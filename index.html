@@ -75,9 +75,12 @@ body {
     font-weight:400 !important;
     line-height: 30px !important;
 }
-ol, ul {
-    padding-left: 1rem !important;
+section.mt-4 {
+    padding-left: 10px;
+    padding-right: 30px;
+    margin-top: 0px;
 }
+
 .list-bio {
     padding-top: 70px;
     padding-bottom: 15px;
@@ -88,12 +91,12 @@ ol, ul {
         .full-width-header {
             margin-top: 10px !important;
             margin: 0;
-            padding: 1rem 0;
+            padding: .3rem 0;
             width: 100%;
         }
         .section-header {
             background-color: #3D81B2;
-            margin-bottom: 1.5rem;
+            margin-bottom: 1rem;
             inline-size: max-content;
         }
         
@@ -104,15 +107,16 @@ ol, ul {
             font-size: 60px !important;
             font-weight: 700 !important;
             line-height: 75.6px !important;
+            padding-left: 160px;
         }
         h2{
-            font-size: 24px !important;
+            font-size: 26px !important;
             font-weight: 700 !important;
             line-height: 30.24px !important; 
         }
         h3{
             font-family: 'Roboto' !important;
-            font-size: 20px !important;
+            font-size: 22px !important;
             font-weight: 500 !important;
             line-height: 40px !important;
             /* color: #3D81B2 !important;   */
@@ -144,6 +148,9 @@ ol, ul {
             border: none;
             padding: 0;
         }
+        .card-body {
+         padding: 0px;
+        }
         .paper-title {
             font-weight: 600;
         }
@@ -154,6 +161,9 @@ ol, ul {
     background-color: #3D81B2;
     border: none;
         }
+        hr.horizontal-line {
+          margin-left: 10px;
+       }
         p.text-muted {
         font-size: 16px !important;
         font-family: 'Lato', sans-serif !important;
@@ -164,7 +174,7 @@ ol, ul {
        p.text-muted.sub-heading.mb-1 {
         font-size: 18px !important;
         font-family: 'Roboto', sans-serif !important;
-        line-height: 40px !important;
+        line-height: 20px !important;
         font-weight: 400 !important;
     }
     small.text-muted.selected-media.d-block a{
@@ -190,6 +200,21 @@ ol, ul {
    background-position: right top;
    background-size: contain;
 }
+h1{
+    padding-left: 0px;
+    line-height: 60px !important;
+}
+h2 {
+    font-size: 23px !important;
+    font-weight: 700 !important;
+    line-height: 30.24px !important;
+  }
+    section.mt-4 {
+        padding-left: 5px;
+    } 
+    hr.horizontal-line {
+    margin-left: 5px;
+    }
    }
 
     </style>
@@ -225,10 +250,10 @@ ol, ul {
                     <span class="nav-divider">|</span>
                     <a href="https://scholar.google.com/citations?user=xqavW90AAAAJ&hl=en&oi=ao" class="nav-link-custom">GOOGLE SCHOLAR</a>
                 </div>
-                <hr>
+                <hr class="horizontal-line">
                 <section class="mt-4">
                     <h2 class="h3 text-white p-2  section-header">Working Papers</h2>
-                    <div class="card mt-3">
+                    <div class="card">
                         <div class="card-body">
                             <h3 class="h5 paper-title market-effects">The Market Effects of Algorithms</h3>
                             <button class="btn btn-link abstract-btn px-0" data-bs-toggle="collapse" data-bs-target="#abstract1">+ Abstract</button>
@@ -242,7 +267,7 @@ ol, ul {
 
                 <section class="mt-4">
                     <h2 class="h3 text-white p-2 section-header">Accepted and Published Papers</h2>
-                    <div class="card mt-3">
+                    <div class="card mt-1">
                         <div class="card-body">
                             <h3 class="h5 paper-title"><a href="https://www.nber.org/papers/w31161" class="text-decoration-none">Generative AI at Work</a> with <a href="https://www.brynjolfsson.com/" class="text-decoration-none">Erik Brynjolfsson</a> and <a href="https://danielle-li.github.io/" class="text-decoration-none">Danielle Li</a> (arXiv link)</h3>
                             <!-- <p class="mb-1">with <a href="#" class="text-decoration-none">Erik Brynjolfsson</a> and <a href="#" class="text-decoration-none">Danielle Li</a> (<a href="#" class="text-decoration-none">arXiv link</a>)</p> -->
@@ -256,7 +281,7 @@ ol, ul {
                         </div>
                     </div>
                     
-                    <div class="card mt-3">
+                    <div class="card mt-1">
                         <div class="card-body">
                             <h3 class="h5 paper-title"><a href="https://www.nber.org/papers/w27736" class="text-decoration-none">Hiring as Exploration with, </a>with <a href="https://danielle-li.github.io/" class="text-decoration-none">Danielle Li</a> and <a href="https://www.marketplace.org/2023/05/05/could-artificial-intelligence-be-your-next-coworker/" class="text-decoration-none">Peter Bergman</a> (arXiv link)</h3>
                             <!-- <p class="mb-1">with <a href="#" class="text-decoration-none">Danielle Li</a> and <a href="#" class="text-decoration-none">Peter Bergman</a> (<a href="#" class="text-decoration-none">arXiv link</a>)</p> -->
